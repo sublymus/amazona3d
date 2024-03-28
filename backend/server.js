@@ -9,16 +9,17 @@ import orderRouter from "./routes/orderRoutes.js";
 import uploadRouter from "./routes/uploadRoutes.js";
 
 dotenv.config(); 
-//by ng
-mongoose
-  .connect(process.env.MONGODB_URI)
-  .then(() => {
-    console.log("connected to db");
-  })
-  .catch((err) => {
-    console.log(err.message);
-  });
 
+mongoose.set("strictQuery", false);
+(async () => {
+  try {
+    const db = await mongoose.connect('mongodb://127.0.0.1:27017/amazona_db');
+    console.log('mongoose connect Models Count = '+db.modelNames.length);
+    
+  } catch (error) {
+    console.log(error);
+  }
+})();
 const app = express();
 
 app.use(express.json());
