@@ -1,7 +1,6 @@
-import * as THREE from '../../../resources/threejs/r132/build/three.module.js'
-import  SpiralScene from "../../Material/spiralScene.js";
-import  ModelScene from "../../OBJ_GLTF/modelScene.js";
-import Menu from '../../views/components/menu/menu.js'
+import  SpiralScene from "/aaSpiral/Material/spiralScene.js";
+import  ModelScene from "/aaSpiral/OBJ_GLTF/modelScene.js";
+import Menu from '/aaSpiral/views/components/menu/menu.js'
 const RenderManager = {
     
     init(renderer){

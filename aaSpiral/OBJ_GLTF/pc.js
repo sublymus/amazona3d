@@ -1,6 +1,6 @@
-import * as THREE from '../../resources/threejs/r132/build/three.module.js'
-import { GUI } from '../../resources/threejs/r132/examples/jsm/libs/dat.gui.module.js';
-import { GLTFLoader } from '../../resources/threejs/r132/examples/jsm/loaders/GLTFLoader.js';
+import * as THREE from '/resources/threejs/r132/build/three.module.js'
+import { GUI } from '/resources/threejs/r132/examples/jsm/libs/dat.gui.module.js';
+import { GLTFLoader } from '/resources/threejs/r132/examples/jsm/loaders/GLTFLoader.js';
 
 
 //GUI
@@ -21,7 +21,7 @@ let scene;
 const loader = new GLTFLoader();
 let screenPivot;
 let tactile
-loader.load('../../resources/models/blender/pc/pc.glb ', (gltf) => {
+loader.load('/resources/models/blender/pc/pc.glb ', (gltf) => {
     const root = gltf.scene;
     scenus.add(root);
     root.position.y = -0.5;

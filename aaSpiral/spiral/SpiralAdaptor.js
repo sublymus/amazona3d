@@ -1,5 +1,5 @@
-import * as THREE from '../../resources/threejs/r132/build/three.module.js'
-import SpiralOfObject from './SpiralOfObject.js'
+import * as THREE from '/resources/threejs/r132/build/three.module.js'
+import SpiralOfObject from '/aaSpiral/spiral/SpiralOfObject.js'
 
 class SpiralAdaptor {
 

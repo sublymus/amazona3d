@@ -1,4 +1,4 @@
-import * as THREE from '../../resources/threejs/r132/build/three.module.js'
+import * as THREE from '/resources/threejs/r132/build/three.module.js'
 
 class FocusLight {
     constructor(length) {

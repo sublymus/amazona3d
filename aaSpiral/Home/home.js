@@ -1,5 +1,5 @@
-import * as THREE from '../../resources/threejs/r132/build/three.module.js'
-import Stats from '../../resources/threejs/r132/examples/jsm/libs/stats.module.js'
+import * as THREE from '/resources/threejs/r132/build/three.module.js'
+import Stats from '/resources/threejs/r132/examples/jsm/libs/stats.module.js'
 import RenderManager from './Manager/renderManager.js'
 let renderer, camera, scene, stats;
 

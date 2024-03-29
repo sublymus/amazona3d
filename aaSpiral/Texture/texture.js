@@ -1,5 +1,5 @@
-import * as THREE from '../../resources/threejs/r132/build/three.module.js'
-import { GUI } from '../../resources/threejs/r132/examples/jsm/libs/dat.gui.module.js';
+import * as THREE from '/resources/threejs/r132/build/three.module.js'
+import { GUI } from '/resources/threejs/r132/examples/jsm/libs/dat.gui.module.js';
 
 //scenus
 const scenus = new THREE.Object3D();
@@ -9,7 +9,7 @@ const planeSize = 4;
 
 const loader = new THREE.TextureLoader();
 const texture = loader.load('../Texture/img/hardwood2_diffuse.jpg');
-const boxtexture = loader.load('../../resources/images/wall.jpg');
+const boxtexture = loader.load('/resources/images/wall.jpg');
 const roughnessMap = loader.load('../Texture/img/hardwood2_roughness.jpg');
 const bumpMap = loader.load('../Texture/img/hardwood2_bump.jpg');
 

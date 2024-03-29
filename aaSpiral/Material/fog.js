@@ -1,5 +1,5 @@
-import * as THREE from '../../resources/threejs/r132/build/three.module.js'
-import { GUI } from '../../resources/threejs/r132/examples/jsm/libs/dat.gui.module.js';
+import * as THREE from '/resources/threejs/r132/build/three.module.js'
+import { GUI } from '/resources/threejs/r132/examples/jsm/libs/dat.gui.module.js';
 
 let context;
 //scenus
