@@ -5,6 +5,7 @@ import BaseComponent from '../../lib/baseComponent/baseComponent.js'
 class Menu extends BaseComponent {
     constructor(data) {
         super({
+            
             items: [],
         }, data);
     }

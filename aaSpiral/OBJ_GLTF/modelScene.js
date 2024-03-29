@@ -34,7 +34,7 @@ const ModelScene = {
 
         const textureLoader = new THREE.TextureLoader();
 
-        const textureEquirec = textureLoader.load('../Home/img/vs9BtQQ59-HRZ6m_1eDmaNypefBEbzD-Q_MCDmfFGhg.webp');
+        const textureEquirec = textureLoader.load('/aaSpiral/Home/img/vs9BtQQ59-HRZ6m_1eDmaNypefBEbzD-Q_MCDmfFGhg.webp');
         textureEquirec.mapping = THREE.EquirectangularReflectionMapping;
         textureEquirec.encoding = THREE.sRGBEncoding;
         this.scene.background = textureEquirec;

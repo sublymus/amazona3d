@@ -10,8 +10,8 @@ const scenus = new THREE.Object3D();
 const planeSize = 4;
 
 const loader = new THREE.TextureLoader();
-const texture = loader.load('../lights_shadows/FloorsCheckerboard_S_Diffuse.jpg');
-const normalTexture = loader.load('../lights_shadows/FloorsCheckerboard_S_Normal.jpg');
+const texture = loader.load('/aaSpiral/lights_shadows/FloorsCheckerboard_S_Diffuse.jpg');
+const normalTexture = loader.load('/aaSpiral/lights_shadows/FloorsCheckerboard_S_Normal.jpg');
 
 
 ////////////////////////////

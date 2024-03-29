@@ -19,7 +19,7 @@ function init() {
 
     window.addEventListener('resize', onWindowResized);
 
-    stats = new Stats();
+    stats = new Stats(); 
     document.body.appendChild(stats.dom);
 
     RenderManager.init(renderer);

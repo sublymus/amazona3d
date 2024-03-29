@@ -13,7 +13,7 @@ const __dirname = path.resolve();
 app.get("/*", (req, res) =>{
   const u = req.url;
   console.log({u});
-  let url = req.url ==='/' ? __dirname+ "/aaSpiral/Home/home.html":__dirname+u;
+  let url = u ==='/' ? __dirname+ "/aaSpiral/Home/home.html":u.startsWith('/views')?__dirname+"/aaSpiral"+u:__dirname+u;
   console.log(url);
   res.sendFile(url)
 });

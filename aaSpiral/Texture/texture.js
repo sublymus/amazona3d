@@ -8,10 +8,10 @@ const scenus = new THREE.Object3D();
 const planeSize = 4;
 
 const loader = new THREE.TextureLoader();
-const texture = loader.load('../Texture/img/hardwood2_diffuse.jpg');
+const texture = loader.load('/aaSpiral/Texture/img/hardwood2_diffuse.jpg');
 const boxtexture = loader.load('/resources/images/wall.jpg');
-const roughnessMap = loader.load('../Texture/img/hardwood2_roughness.jpg');
-const bumpMap = loader.load('../Texture/img/hardwood2_bump.jpg');
+const roughnessMap = loader.load('/aaSpiral/Texture/img/hardwood2_roughness.jpg');
+const bumpMap = loader.load('/aaSpiral/Texture/img/hardwood2_bump.jpg');
 
 boxtexture.needsUpdate = true;
 boxtexture.magFilter = THREE.LinearMipmapLinearFilter;

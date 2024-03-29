@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style scr="style.css" type="text/css"></style>
+    <style scr="/aaSpiral/views/components/menu/menu2.css" type="text/css"></style>
     <style>
         body {
             padding: 0;
@@ -86,6 +86,41 @@
             display: flex;
             justify-content: space-between;
         }
+        body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.menu{
+    position: absolute;
+    top: 200px;
+    width: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    color: #e1e1e1;
+}
+
+.item{
+    width: 200px;
+    height: 40px;
+    padding: 0px 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 200ms;
+    border: 0.5px solid #0092fa2e; 
+}
+
+.item.active{ 
+    color: #0092fa;
+    background : #0020423d;
+    border-left: 4px solid #0092fa;
+    transition: 200ms
+}
+.item:hover{ 
+    transition: 200ms;
+    background : #0020423d;
+}
     </style>
 </head>
 

@@ -8,10 +8,10 @@ const scenus = new THREE.Object3D();
 const planeSize = 4;
 
 const loader = new THREE.TextureLoader();
-const texture = loader.load('../Texture/img/grasslight-big.jpg');
-const boxtexture = loader.load('../Texture/img/crate.gif');
-const normalTexture = loader.load('../Texture/img/grasslight-big-nm.jpg');
-const normalTexture2 = loader.load('../Texture/img/golfball.jpg');
+const texture = loader.load('/aaSpiral/Texture/img/grasslight-big.jpg');
+const boxtexture = loader.load('/aaSpiral/Texture/img/crate.gif');
+const normalTexture = loader.load('/aaSpiral/Texture/img/grasslight-big-nm.jpg');
+const normalTexture2 = loader.load('/aaSpiral/Texture/img/golfball.jpg');
 
 
 ////////////////////////////

@@ -10,12 +10,12 @@ const textures = {};
 const names =  [];
 for (let i = 0; i < 6; i++) {
     names[i] = 't'+(i+1)
-    textures[names[i]] = loader.load('../Texture/img/transition'+(i+1)+'.png')
+    textures[names[i]] = loader.load('/aaSpiral/Texture/img/transition'+(i+1)+'.png')
 }
 names.push('t7')
-textures['t7'] =loader.load('../Texture/img/alphaMap.jpg');
+textures['t7'] =loader.load('/aaSpiral/Texture/img/alphaMap.jpg');
 
-const map = loader.load('../Texture/img/parent.JPG');
+const map = loader.load('/aaSpiral/Texture/img/parent.JPG');
 const sphereMat = new THREE.MeshPhongMaterial({map , alphaTest: 0.15, alphaMap : textures['t3'] ,side: THREE.DoubleSide });
 const sphereGeo = new THREE.BoxGeometry(1,1.5,1);
 const sphere = new THREE.Mesh(sphereGeo, sphereMat);

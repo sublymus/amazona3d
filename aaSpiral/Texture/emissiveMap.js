@@ -6,11 +6,11 @@ const scenus = new THREE.Object3D();
 
 
 const loader = new THREE.TextureLoader();
-const map = loader.load('../Texture/img/Lava005_1K_Color-min.jpg');
-const roughnessMap = loader.load('../Texture/img/Lava005_1K_Roughness-min.png');
-const displacementMap = loader.load('../Texture/img/Rock026_1K_Displacement.jpg');
-const normalMap = loader.load('../Texture/img/Lava005_1K_NormalGL-min.jpg');
-const emissiveMap = loader.load('../Texture/img/Lava005_1K_Emission-min.jpg');
+const map = loader.load('/aaSpiral/Texture/img/Lava005_1K_Color-min.jpg');
+const roughnessMap = loader.load('/aaSpiral/Texture/img/Lava005_1K_Roughness-min.png');
+const displacementMap = loader.load('/aaSpiral/Texture/img/Rock026_1K_Displacement.jpg');
+const normalMap = loader.load('/aaSpiral/Texture/img/Lava005_1K_NormalGL-min.jpg');
+const emissiveMap = loader.load('/aaSpiral/Texture/img/Lava005_1K_Emission-min.jpg');
 const sphereMat = new THREE.MeshPhongMaterial({emissiveMap, map, normalMap, roughnessMap, displacementMap , wireframe: true});
 const sphereGeo = new THREE.IcosahedronGeometry(0.5,3);
 const sphere = new THREE.Mesh(sphereGeo, sphereMat);
