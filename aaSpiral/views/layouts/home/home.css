@@ -1,0 +1,146 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size:1.2em;
+    background : no-repeat center/cover url('/views/img/wallpaperflare.com_wallpaper (7).jpg'),rgba(51, 51, 51, 0.596);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* backdrop-filter: blur(10px); */
+    
+}
+.home{
+   
+    width: 100vw;
+    height: 100vh;
+}
+.voilefont{
+    z-index: -1;
+    display:flex;
+    position:absolute;
+    width : 100vw;
+    height : 100vh;
+    background :rgba(0, 0, 0, 0.404)
+}
+.top-bar {
+    width: 100vw;
+    height: 100px;
+    /* background : #0002; */
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.top-bar ul{
+    width : 100%;
+    max-width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-bar li{
+    all :unset;
+    color: rgba(212, 212, 212, 0.973);
+    /* width: 100px; */
+    padding: 10px 10px;
+    border-radius :10px;
+}
+.top-bar li:hover{
+    color: #fff;
+    /* background : rgba(0, 0, 0, 0.123) */
+}
+
+
+.nav-links {
+    width: 200px;
+    height: 80px;
+}
+
+
+
+.user-icon {
+    margin: 0px 20px;
+    width: 80px;
+    height: 80px;
+    filter : invert(100%);
+    background: #345;
+    background: no-repeat center/60% url('/views/img/user.png'), #fff2;
+    border-radius: 100px;
+}
+.center{
+    width: 100vw;
+    height: calc(100% - 100px);
+     /* background: #aaa */
+}
+.center-container {
+    width: 100vw;
+    /* width:65vw; */
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background: #aaa */
+}
+
+.rotatif-container {
+    width: 80vw;
+    height: 50vh;
+}
+.rotatif-viewer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    /* background: rgb(23, 10, 41) */
+}
+
+.rotatif-viewer .view{
+    position: absolute;
+    background : no-repeat center/contain url(/views/img/logo.png);
+    width : 150px;
+    height: 200px;
+    border-radius :10px;
+    font-size : 2em;
+    color : #fff;
+    text-align : center;
+}
+
+.home-message {
+    padding : 30px 10px;
+    /* z-index: -1; */
+    width: 20vw;
+    height: 400px;
+    background : #0002;
+    backdrop-filter: blur(5px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.home-message  .message {
+    text-align: center;
+    color : #fff;
+    width: 100%;
+}
+.home-message  .button {
+    text-align: center;
+    color : #fff;
+    padding: 20px 10px;
+    border-radius : 50px;
+    background : rgba(0, 223, 186, 0.418)
+}
+
+.home-message  .button:hover {
+    
+    background : rgba(0, 223, 186, 0.692)
+}
+
+.main-category{
+    width: 100vw;
+}
